@@ -101,7 +101,7 @@ hr::before {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 95vh;
   color: #ffffff;
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
