@@ -1,0 +1,501 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Global css start */
+a:hover{
+  text-decoration: none;
+}
+h3 {
+  color: #2e2e2e;
+  font-weight: 700;
+}
+
+hr {
+  position: relative;
+}
+
+hr::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #22a690;
+  width: 80px;
+  height: 5px;
+}
+
+.btn-info {
+  background: #25a590 !important;
+  border-radius: 0;
+  padding: 8px 20px;
+  font-weight: 700;
+}
+/* global css end */
+
+/*header part start*/
+#top-address {
+  background: #333333;
+  color: #ffffff;
+  padding: 11px 0;
+  font-size: 12px;
+}
+
+.top-icon .left-side p {
+  margin: 0;
+}
+
+.top-icon .right-side {
+}
+
+.top-icon .right-side p {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.top-icon .right-side a {
+  color: #ffffff;
+  margin: 0 20px;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+.top-icon .right-side i {
+  margin: 0 5px;
+}
+
+/* nav section start */
+#menu-bar {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.41);
+}
+
+.navbar .nav-item {
+  border: 0 solid #ffffff;
+  border-right-width: 1px;
+}
+
+.nav-item .nav-link {
+  font-size: 20px;
+  margin: 0 15px;
+  line-height: 2px;
+}
+
+.nav-item:last-child {
+  border: 0px;
+}
+
+.navbar .nav-item:hover {
+}
+
+
+
+/*nav section end */
+#banner {
+  background: url(../img/banner.jpg);
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  color: #ffffff;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+
+#banner .banner-title {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  background: rgba(0, 0, 0, 0.41);
+  text-align: start;
+  padding: 15px 0;
+  padding-left: 136px;
+  transform: rotate(0deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  width: 787px;
+}
+
+#banner .banner-title h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+#banner .banner-title p {
+  font-size: 25px;
+}
+
+/* banner part end */
+
+/* main moto start */
+#main-moto {
+  background-color: #339999;
+  padding: 65px 0;
+}
+
+#main-moto .media img {
+  margin-top: 4px;
+  padding-right: 10px;
+}
+
+#main-moto .media-body {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#main-moto .media-body h5 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* main moto end */
+
+/* type sectiopn start */
+#expart-section {
+}
+
+#expart-section h3 {
+}
+
+#expart-section img {
+  width: 225px;
+  position: relative;
+  padding: 95px 0;
+}
+
+#expart-section h1 {
+  position: absolute;
+  top: 217px;
+  left: 0;
+  right: 0;
+  font-weight: 700;
+  font-size: 50px;
+  color: #2e2e2e;
+}
+
+#expart-section .media {
+  margin: 10px 0;
+  margin-bottom: 80px;
+}
+
+#expart-section .media img {
+  padding: 0;
+  height: 112px;
+  width: 113px;
+  object-fit: cover;
+  /* border: 1px solid #333; */
+  outline: 1px solid #333;
+  outline-offset: 1px;
+}
+
+#expart-section .media-body {
+  padding: 0 6px;
+}
+
+#expart-section .media-body h5 {
+  font-weight: 700;
+  color: #2e2e2e;
+}
+
+/* type sectiopn end */
+
+/* servicess section start */
+#servicess {
+  background-color: #f7f7f7;
+  padding: 80px 0;
+}
+
+#servicess h3 {
+  color: #2e2e2e;
+  font-weight: 700;
+}
+
+#servicess h4 {
+  text-align: center;
+  color: #2e2e2e;
+  position: relative;
+  margin-bottom: 40px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+#servicess h4::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  background-color: #22a690;
+  width: 35px;
+  height: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+#servicess img {
+  margin-bottom: 2px;
+}
+
+#servicess h6 {
+  font-weight: 700;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+#servicess p {
+  color: #666666;
+  font-size: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+#servicess button {
+  font-size: 14px;
+}
+
+/* #servicess .btn-info {
+  background: #25a590 !important;
+  border-radius: 0;
+  padding: 8px 20px;
+  font-weight: 700;
+} */
+
+/* servicess section end */
+/* blog section start */
+#blog {
+  padding: 90px 0;
+  background-color: #ffffff;
+}
+
+#blog h3 {
+  font-size: 35px;
+}
+
+#blog .media {
+  margin: 0;
+}
+
+#blog .media img {
+  width: 400px !important;
+}
+
+#blog .media-body {
+  color: #666666;
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 39px;
+}
+
+#blog .media-body h4 {
+  color: #2e2e2e;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: -60px;
+  bottom: 0px;
+  z-index: 1;
+  width: 35px;
+  color: #fff;
+  transition: opacity 0.15s ease;
+  background: black;
+  height: 35px;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.carousel-control-prev {
+  left: 92%;
+}
+
+/* blog section end */
+
+/* < !-- start Propos start --> */
+#propos {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+.pourquoinous {
+  margin-top: 50px;
+}
+
+.pourquoinous img {
+  width: 70px !important;
+  height: 76px !important;
+  object-fit: contain !important;
+}
+
+.pourquoinous .media-body {
+  padding-right: 60px;
+}
+
+.pourquoinous .media-body h4 {
+  font-weight: 700;
+}
+
+#propos .media {
+  margin-top: 50px;
+}
+
+#propos .media img {
+  height: 330px;
+  width: 235px;
+  object-fit: cover;
+}
+
+#propos .media-body {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+#propos .media-body button {
+  margin-top: 28px;
+}
+
+/* < !-- start Propos end --> */
+/* partner section start */
+#partner {
+  padding: 170px 0;
+  background-color: #339999;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.partner::before {
+  content: "";
+  top: 14px;
+  left: -130px;
+  background: url(../img/Vector-Smart-Object-copy-2.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  object-fit: contain;
+}
+
+.partner::after {
+  content: "";
+  top: -40px;
+  right: -122px;
+  background: url(../img/Vector-Smart-Object-copy-2.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  object-fit: contain;
+  z-index: -1;
+}
+
+#partner h3 {
+  color: #ffffff;
+}
+
+#partner hr {
+  background: #cccccc;
+}
+
+#partner hr::before {
+  background: #ffffff;
+}
+
+#partner .associations {
+  background: #ffffff;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#partner .associations img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+/* partner section end */
+/* footer Section start */
+footer {
+  background-color: #2e2e2e;
+  padding: 165px 0;
+  color: #ffffff;
+}
+.footer-logo img{}
+.footer-logo p{
+    font-size: 11px;
+    margin-left: 11px;
+    padding: 30px 0;
+}
+.footer-logo button{}
+.footer-logo .btn-info{
+    margin-left: 10px;
+    padding: 20px 35px;
+    background: #22a690 !important;
+}
+footer .footer-widget{
+    padding: 0 25px;
+}
+footer .footer-widget h4, .footer-widget-1 h4{
+    font-size: 15px;
+    font-weight: 700;
+}
+footer .footer-widget ul, .footer-widget-1 ul{
+    padding-left: 0;
+}
+footer .footer-widget ul li, .footer-widget-1 ul li {
+  list-style: none;
+}
+footer .footer-widget ul li i, .footer-widget-1 ul li i {
+  color: #2cbdb8;
+}
+footer .footer-widget ul li a{
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.fa-caret-right:before {
+  content: "\f0da";
+}
+.footer-widget-1 ul li a{
+   font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+footer .footer-widget ul p, .footer-widget-1 ul p{
+    font-size: 10px;
+    font-weight: 300;
+}
+footer .contact-option li{margin-bottom: 15px;}
+footer .contact-option i{
+  color: #2cbdb8;
+  padding-right: 13px;
+}
+footer .contact-option a{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    padding-left: 0px;
+}
+
+/* footer Section end */
+
+

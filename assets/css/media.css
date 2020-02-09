@@ -1,0 +1,422 @@
+/* Extra small devices (porttait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 35px !important;
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
+
+    h4 {
+        font-size: 20px !important;
+    }
+
+    h5 {
+        font-size: 17px !important;
+    }
+
+    .navbar-brand img {
+        width: 225px;
+    }
+
+    .navbar .nav-item {
+        border: 0;
+    }
+
+    .navbar-nav {
+        text-align: right;
+    }
+
+    .nav-item .nav-link {
+        margin: 10px 0;
+    }
+
+    /* banner part */
+    #banner .banner-title {
+        padding: 20px 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    #banner .banner-title h1 {
+        font-size: 37px;
+        font-weight: 700;
+    }
+
+    #banner .banner-title p {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    /* moto part */
+    #main-moto .media img {
+        width: 124px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    #main-moto .media-body {
+        font-size: 12px;
+        margin-top: 7px;
+    }
+
+    /* expart  */
+    #expart-section img {
+        width: 160px;
+        padding: 40px 0;
+    }
+
+    #expart-section h1 {
+        top: 100px;
+    }
+
+    #expart-section .media {
+        margin: 10px 0;
+        margin-bottom: 15px;
+    }
+
+    /* services */
+    #servicess button {
+        margin-bottom: 10px;
+    }
+
+    #servicess .col-sm {
+        text-align: center;
+    }
+
+    /* blog */
+    #blog {
+        padding: 50px 0;
+    }
+
+    #blog .media img {
+        width: 100% !important;
+    }
+
+    #blog .media-body {
+        font-size: 15px;
+    }
+
+    #blog .media-body h4 {
+        font-size: 20px;
+    }
+
+    .carousel-control-prev {
+        left: 82%;
+    }
+
+    /* propos */
+    #propos .media {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .pourquoinous .media-body h4 {
+        font-size: 15px !important;
+    }
+
+    #propos .media img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #propos .media-body button {
+        margin-top: 28px;
+        display: block;
+    }
+
+    /* partner */
+    #partner {
+        padding: 70px 0;
+    }
+
+    .partner::before {
+        content: "";
+        top: 60px;
+        left: -130px;
+    }
+
+    .partner::after {
+        content: "";
+        top: -62px;
+        right: -122px;
+    }
+
+    /* footer */
+    footer {
+        padding: 65px 0;
+        text-align: center;
+    }
+
+    .footer-logo p {
+        padding: 10px 0;
+    }
+}
+
+
+/*  Small devices (Landscape phones,  576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 40px !important;
+    }
+
+    h3 {
+        font-size: 30px !important;
+    }
+
+    h4 {
+        font-size: 20px !important;
+    }
+
+    h5 {
+        font-size: 20px !important;
+    }
+
+    .navbar .nav-item {
+        border: 0;
+    }
+
+    .navbar-nav {
+        text-align: right;
+    }
+
+    .nav-item .nav-link {
+        margin: 10px 0;
+    }
+
+    /* banner part */
+    #banner .banner-title {
+        padding: 20px 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    #banner .banner-title h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    #banner .banner-title p {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    /* moto part */
+    #main-moto .media img {
+        width: 124px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    #main-moto .media-body {
+        font-size: 12px;
+        margin-top: 7px;
+    }
+
+    /* expart  */
+    #expart-section img {
+        width: 200px;
+        padding: 40px 0;
+    }
+
+    #expart-section h1 {
+        top: 128px;
+    }
+
+    #expart-section .media {
+        margin: 10px 0;
+        margin-bottom: 15px;
+    }
+
+    /* service */
+    #servicess button {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    /* blog */
+    #blog {
+        padding: 25px 0;
+    }
+
+    #blog .media img {
+        width: 100% !important;
+    }
+
+    #blog .media-body {
+        font-size: 17px;
+    }
+
+    .carousel-control-prev {
+        left: 85%;
+    }
+
+    /* propos */
+    #propos h3 {
+        margin-top: 15px;
+    }
+
+    #propos .media img {
+        width: 40%;
+        margin-bottom: 10px;
+    }
+
+    #propos .media-body button {
+        margin-top: 28px;
+        display: block;
+    }
+}
+
+/*  Medium devices (tablets,  768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar .nav-item {
+        border: 0;
+    }
+
+    .navbar-nav {
+        text-align: right;
+    }
+
+    .nav-item .nav-link {
+        margin: 10px 0;
+    }
+
+    /* banner part */
+    #banner .banner-title {
+        padding: 20px 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    #banner .banner-title h1 {
+        font-size: 55px;
+        font-weight: 700;
+    }
+
+    #banner .banner-title p {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    /* moto part */
+
+
+    #main-moto .media img {
+        width: 124px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    #main-moto .media-body {
+        font-size: 12px;
+        margin-top: 7px;
+    }
+
+    /* expart  */
+    #expart-section img {
+        width: 200px;
+        padding: 40px 0;
+    }
+
+    #expart-section h1 {
+        top: 120px;
+    }
+
+    #expart-section .media {
+        margin: 10px 0;
+        margin-bottom: 20px;
+    }
+
+    /* blog */
+    #blog {
+        padding: 25px 0;
+    }
+
+    #blog .media img {
+        width: 100% !important;
+    }
+
+    #blog .media-body {
+        font-size: 17px;
+    }
+
+    .carousel-control-prev {
+        left: 88%;
+    }
+
+    /* propos */
+    #propos h3 {
+        margin-top: 25px;
+    }
+
+    #propos .media-body button {
+        margin-top: 28px;
+        display: block;
+
+    }
+
+
+}
+
+/*  Large devices (Desktop,  992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .nav-item .nav-link {
+        margin: 0 5px;
+    }
+
+    #expart-section h1 {
+        top: 175px;
+    }
+
+    #propos .media img {
+        width: 190px;
+    }
+
+    #propos .media-body button {
+        margin-top: 28px;
+        display: block;
+    }
+
+    footer .contact-option a {
+        font-size: 13px !important;
+    }
+
+    footer .contact-option i {
+        padding-right: 8px;
+    }
+
+    footer .footer-widget {
+        padding: 0 5px;
+    }
+}
+
+/*  Extra-Large devices (Large Desktop, tv,  1200px and up) */
+
+@media (max-width: 1200px) {}
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    #banner .banner-title {
+        padding: 15px 0;
+        padding-left: 225px;
+        width: 930px;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 2000px) {
+    #banner .banner-title {
+        padding: 15px 0;
+        padding-left: 350px;
+        width: 1000px;
+    }
+}
